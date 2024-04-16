@@ -4,7 +4,7 @@
 CXX = g++
 MPICXX = mpic++
 # CXXFLAGS = -g -O0 -fsanitize=address -Wall -Wextra -fopenmp #
-CXXFLAGS = -g -O0 -Wall -Wextra -fopenmp 
+CXXFLAGS = -g -O0 -Wall -Wextra -fopenmp -gdwarf-2 -gstrict-dwarf -gdwarf-4
 CPPFLAGS_FAST = -O3 -fopenmp
 
 

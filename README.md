@@ -15,7 +15,7 @@ On the academic cluster, run the following commands
 
 ```bash
 cd src/
-spack load gcc
+spack load gcc@13.2.0
 spack load openmpi@4.1.6
 make test
 ```
@@ -25,7 +25,7 @@ On the academic cluster, run the following commands
 
 ```bash
 cd src/
-spack load gcc
+spack load gcc@13.2.0
 spack load openmpi@4.1.6
 make main
 ```
